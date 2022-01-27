@@ -1,0 +1,5 @@
+FROM centos:7
+ENV user=kashinath94
+RUN yum install httpd -y 
+CMD ["echo","HelloWorld!"]
+EXPOSE 84
